@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Say voice='man'>Hello, you have reached the ambulance. Do not panic. Kindly provide us with your details so that we may reach you faster.</Say>
+    <Pause length = '1'/>
+    <Say voice='man'>Name of the patient ?</Say>
+    <Pause length='1'/>
+    <Say voice='man'>Name of the caller ?</Say>
+    <Pause length='1'/>
+    <Say voice='man'>Provide the address where the ambulance must reach.</Say>
+    <Pause length='300'/>
+    <Say voice='man'>We will send an ambulance immediately. Thank you.</Say>
+    <Pause length='1'/>
+    <Record timeout='5' transcribe='false'/>
+</Response>
